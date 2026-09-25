@@ -13,7 +13,7 @@ export const TOPICS = {
     description: 'Verdiep je in de essentie van Ramadan, Laylat al-Qadr en spirituele vernieuwing.',
     seoTitle: 'Ramadan & Vasten in de Islam — Koffie & Koran',
     seoDescription: 'Alles over Ramadan, Laylat al-Qadr en islamitisch vasten. Koffie & Koran bespreekt de diepere betekenis van de heilige maand en hoe je er het meeste uithalt.',
-    pillarIntro: 'Ramadan is veel meer dan een maand van honger en dorst. Het is een jaarlijkse spirituele reset — een kans om dichter bij Allah te komen, slechte gewoontes te doorbreken en je hart te reinigen. In deze afleveringen duiken Muhammed en Ahmet diep in de betekenis van Ramadan, Laylat al-Qadr en het islamitisch vasten.',
+    pillarIntro: 'Ramadan is veel meer dan een maand van honger en dorst. Het is een jaarlijkse spirituele reset — een kans om dichter bij Allah te komen, slechte gewoontes te doorbreken en je hart te reinigen. In deze afleveringen duiken Mohammed en Ahmet diep in de betekenis van Ramadan, Laylat al-Qadr en het islamitisch vasten.',
   },
   zingeving: {
     id: 'zingeving',
@@ -23,7 +23,7 @@ export const TOPICS = {
     description: 'Gesprekken over leegte, purpose, innerlijke vrede en omgaan met moderne druk.',
     seoTitle: 'Zingeving & Mentale Rust vanuit de Islam — Koffie & Koran',
     seoDescription: 'Voel je leegte ondanks alles wat je hebt? Koffie & Koran bespreekt zingeving, purpose en innerlijke rust vanuit een islamitisch perspectief.',
-    pillarIntro: 'Steeds meer mensen — ook moslims — kampen met existentiële leegte, stress en het gevoel dat hun leven geen richting heeft. De islam biedt diepgaande antwoorden op deze vragen. In deze afleveringen verkennen Muhammed en Ahmet wat zingeving, purpose en mentale rust betekenen vanuit het geloof.',
+    pillarIntro: 'Steeds meer mensen — ook moslims — kampen met existentiële leegte, stress en het gevoel dat hun leven geen richting heeft. De islam biedt diepgaande antwoorden op deze vragen. In deze afleveringen verkennen Mohammed en Ahmet wat zingeving, purpose en mentale rust betekenen vanuit het geloof.',
   },
   geloof: {
     id: 'geloof',
@@ -33,7 +33,7 @@ export const TOPICS = {
     description: 'De fundamenten van de Islam, de Koran, profeten en de betekenis van het geloof.',
     seoTitle: 'Islamitische Geloofsleer & Theologie — Koffie & Koran',
     seoDescription: 'Wat gelooft een moslim? Koffie & Koran legt de fundamenten van de islam uit: Tawheed, de Koran, profeten en de islamitische kijk op God en het hiernamaals.',
-    pillarIntro: 'Wat is de islam nu eigenlijk in de kern? Zonder ingewikkeld jargon of dogmatische haarkloverij. In deze afleveringen behandelen Muhammed en Ahmet de fundamenten van het islamitisch geloof: van de eenheid van God (Tawheed) tot de rol van profeten, de Koran en het hiernamaals.',
+    pillarIntro: 'Wat is de islam nu eigenlijk in de kern? Zonder ingewikkeld jargon of dogmatische haarkloverij. In deze afleveringen behandelen Mohammed en Ahmet de fundamenten van het islamitisch geloof: van de eenheid van God (Tawheed) tot de rol van profeten, de Koran en het hiernamaals.',
   },
   maatschappij: {
     id: 'maatschappij',
@@ -43,7 +43,7 @@ export const TOPICS = {
     description: 'Hoe navigeer je als moslim in de hedendaagse samenleving?',
     seoTitle: 'Islam & Maatschappij in Nederland — Koffie & Koran',
     seoDescription: 'Hoe leef je als moslim in de Nederlandse samenleving? Koffie & Koran bespreekt integratie, identiteit, actualiteit en de islamitische visie op de wereld om ons heen.',
-    pillarIntro: 'Als moslim in Nederland navigeer je voortdurend tussen twee werelden. Hoe blijf je trouw aan je geloof en neem je tegelijkertijd volwaardig deel aan de samenleving? In deze afleveringen bespreken Muhammed en Ahmet actuele thema\'s zoals integratie, identiteit en de islamitische visie op geopolitieke ontwikkelingen.',
+    pillarIntro: 'Als moslim in Nederland navigeer je voortdurend tussen twee werelden. Hoe blijf je trouw aan je geloof en neem je tegelijkertijd volwaardig deel aan de samenleving? In deze afleveringen bespreken Mohammed en Ahmet actuele thema\'s zoals integratie, identiteit en de islamitische visie op geopolitieke ontwikkelingen.',
   },
 }
 
@@ -329,7 +329,7 @@ const episodes = [
       'Wetenschappelijke bevindingen versterken het geloof — ze vervangen het niet',
       'Het geloof in het hiernamaals beïnvloedt direct je keuzes in dit leven',
     ],
-    description: `Bijna-dood ervaringen (NDE's), kwantumfysica en nieuwe wetenschappelijke bevindingen over bewustzijn na de dood. Wat moeten we ermee?\n\nMuhammed en Ahmet bespreken de laatste onderzoeken en leggen ze naast de islamitische leer over Akhirah (het hiernamaals). Versterken deze bevindingen het geloof, of gaan we te snel?`,
+    description: `Bijna-dood ervaringen (NDE's), kwantumfysica en nieuwe wetenschappelijke bevindingen over bewustzijn na de dood. Wat moeten we ermee?\n\nMohammed en Ahmet bespreken de laatste onderzoeken en leggen ze naast de islamitische leer over Akhirah (het hiernamaals). Versterken deze bevindingen het geloof, of gaan we te snel?`,
     relatedSlugs: ['leven-na-de-dood-islam-moslims-hiernamaals-12', 'wat-geloven-moslims-en-wat-is-islam-3-dingen-10']
   },
 
@@ -359,7 +359,7 @@ const episodes = [
       'Veel mensen laten deze kans onbenut door vermoeidheid of onwetendheid',
       'De nacht begint bij zonsondergang — bereid je de dag ervoor al voor',
     ],
-    description: `De laatste nachten van de Ramadan zijn de meest waardevolle nachten van het hele jaar. Laylat ul Qadr — de Nacht der Macht — is beter dan duizend maanden. Wie deze nacht in aanbidding doorbrengt, kan vergeven worden van al zijn voorgaande zonden.\n\nIn deze aflevering bespreken Muhammed en Ahmet hoe je deze heilige nacht optimaal benut, wat de tekenen zijn, welke smeekbedes het meest krachtig zijn en waarom zoveel mensen deze kans laten liggen.`,
+    description: `De laatste nachten van de Ramadan zijn de meest waardevolle nachten van het hele jaar. Laylat ul Qadr — de Nacht der Macht — is beter dan duizend maanden. Wie deze nacht in aanbidding doorbrengt, kan vergeven worden van al zijn voorgaande zonden.\n\nIn deze aflevering bespreken Mohammed en Ahmet hoe je deze heilige nacht optimaal benut, wat de tekenen zijn, welke smeekbedes het meest krachtig zijn en waarom zoveel mensen deze kans laten liggen.`,
     relatedSlugs: ['bekijk-dit-voordat-de-ramadan-voorbij-is-27', 'ramadan-dichter-bij-god-spirituele-groei-2']
   },
   {
@@ -559,7 +559,7 @@ const episodes = [
       'Islamitische principes kunnen naast moderniteit bestaan zonder tegenstrijdheid',
       'De vraag is niet of de islam relevant is, maar of moslims het goed uitleggen',
     ],
-    description: `Is Islam achterhaald of juist de meest complete blauwdruk voor een rechtvaardig en zinvol leven? Muhammed en Ahmet bespreken hoe islamitische principes antwoord geven op de grootste problemen van onze tijd: ongelijkheid, zinloos geweld, mentale gezondheidsproblemen en moreel verval.`,
+    description: `Is Islam achterhaald of juist de meest complete blauwdruk voor een rechtvaardig en zinvol leven? Mohammed en Ahmet bespreken hoe islamitische principes antwoord geven op de grootste problemen van onze tijd: ongelijkheid, zinloos geweld, mentale gezondheidsproblemen en moreel verval.`,
     relatedSlugs: ['wat-geloven-moslims-en-wat-is-islam-3-dingen-10', 'slaaf-zijn-van-god-vrijheid-vinden-door-overgave-9']
   },
   {
@@ -684,7 +684,7 @@ const episodes = [
       'Veel van de grootste wetenschappers uit de islamitische gouden eeuw waren gelovigen',
       'Het grootste argument van de scepticus ("je kunt God niet bewijzen") kan worden beantwoord',
     ],
-    description: `"Je kunt God niet bewijzen, dus waarom zou ik geloven?" Het grootste argument van de moderne scepticus. Muhammed en Ahmet gaan de uitdaging aan.\n\nOver de grenzen van wetenschap, de rationele basis voor geloof en waarom de meest briljante wetenschappers door hun vakgebied tot geloof kwamen.`,
+    description: `"Je kunt God niet bewijzen, dus waarom zou ik geloven?" Het grootste argument van de moderne scepticus. Mohammed en Ahmet gaan de uitdaging aan.\n\nOver de grenzen van wetenschap, de rationele basis voor geloof en waarom de meest briljante wetenschappers door hun vakgebied tot geloof kwamen.`,
     relatedSlugs: ['waarom-geloven-mensen-in-god-bestaat-god-7', 'bewijs-gevonden-voor-leven-na-de-dood-30']
   },
   {
@@ -818,7 +818,7 @@ const episodes = [
     slug: 'nieuwe-podcast-koffie-en-koran-kick-off-gesprek-over-geloof-het-leven-en-vragen-1',
     title: '#1 Nieuwe podcast Koffie & Koran: Kick-off gesprek over geloof, het leven en vragen',
     seoH1: 'Wat is Koffie & Koran? De eerste aflevering van de podcast over islam en zingeving',
-    subtitle: 'Wie zijn Muhammed en Ahmet en waarom deze podcast?',
+    subtitle: 'Wie zijn Mohammed en Ahmet en waarom deze podcast?',
     date: '2024-03-01', consumptionTime: null,
     topic: 'geloof',
     tags: ['Introductie', 'Geloof', 'Podcast', 'Begin'],
@@ -826,15 +826,15 @@ const episodes = [
     youtubeUrl: 'https://www.youtube.com/watch?v=kY23wxvWHTU',
     thumbnail: 'https://i.ytimg.com/vi/kY23wxvWHTU/hqdefault.jpg',
     ...ep('0sPSOBi9mklyc6UA7t08lK'),
-    learnings: 'Maak kennis met Muhammed en Ahmet — wie ze zijn, waarom ze Koffie & Koran begonnen en wat je kunt verwachten.',
+    learnings: 'Maak kennis met Mohammed en Ahmet — wie ze zijn, waarom ze Koffie & Koran begonnen en wat je kunt verwachten.',
     keyInsights: [
       'Koffie & Koran is geboren uit de behoefte aan eerlijke, diepgaande islamitische gesprekken',
-      'Muhammed en Ahmet zijn gewone moslims die grote vragen stellen',
+      'Mohammed en Ahmet zijn gewone moslims die grote vragen stellen',
       'De podcast richt zich op Nederlandse moslims die nadenken over geloof en identiteit',
       'Geen prediken, geen dogma — wel eerlijke gesprekken over wat je echt bezighoudt',
       'Dit is de perfecte startplek als je nieuw bent met Koffie & Koran',
     ],
-    description: `De eerste aflevering! Muhammed en Ahmet stellen zich voor, vertellen over hun achtergrond en leggen uit waarom ze Koffie en Koran zijn begonnen.\n\nWat drijft hen? Welke vragen hopen ze te beantwoorden? En wat kun je verwachten van deze podcast? De perfecte startplek als je nieuw bent.`,
+    description: `De eerste aflevering! Mohammed en Ahmet stellen zich voor, vertellen over hun achtergrond en leggen uit waarom ze Koffie en Koran zijn begonnen.\n\nWat drijft hen? Welke vragen hopen ze te beantwoorden? En wat kun je verwachten van deze podcast? De perfecte startplek als je nieuw bent.`,
     relatedSlugs: ['wat-geloven-moslims-en-wat-is-islam-3-dingen-10', 'ramadan-dichter-bij-god-spirituele-groei-2']
   }
 ]

@@ -23,11 +23,11 @@ function Footer() {
             <p className="text-coffee-300 text-xs sm:text-sm leading-relaxed mb-4">
               Grote vragen. Eerlijke gesprekken. Geen poespas.
               <br />
-              Een wekelijkse podcast door Muhammed en Ahmet.
+              Een wekelijkse podcast door Mohammed en Ahmet.
             </p>
             <div className="flex items-center gap-3">
               <span className="text-xs text-coffee-400">
-                Muhammed
+                Mohammed
               </span>
               <span className="text-coffee-700">·</span>
               <a
@@ -65,11 +65,6 @@ function Footer() {
               <li>
                 <a href="/#stel-je-vraag" className="text-coffee-300 hover:text-white transition-colors">
                   Stel je vraag voor de podcast
-                </a>
-              </li>
-              <li>
-                <a href="/#over-ons" className="text-coffee-300 hover:text-white transition-colors">
-                  Over Muhammed &amp; Ahmet
                 </a>
               </li>
             </ul>

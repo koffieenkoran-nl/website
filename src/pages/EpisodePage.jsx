@@ -61,7 +61,7 @@ function EpisodePage() {
         url: 'https://koffieenkoran.nl'
       },
       author: [
-        { '@type': 'Person', name: 'Muhammed Aydogan' },
+        { '@type': 'Person', name: 'Mohammed Aydogan' },
         { '@type': 'Person', name: 'Ahmet Kaya', url: 'https://ahmetkaya.nl/' }
       ]
     },
@@ -359,16 +359,16 @@ function EpisodePage() {
                 Hosts van Koffie &amp; Koran
               </h3>
               <div className="space-y-3">
-                {/* Muhammed */}
+                {/* Mohammed */}
                 <div className="flex items-center gap-3 p-1.5">
                   <img
                     src="/muhammed-aydogan.jpg"
-                    alt="Muhammed Aydogan"
+                    alt="Mohammed Aydogan"
                     className="w-10 h-10 rounded-full object-cover ring-2 ring-coffee-200"
                     onError={(e) => { e.target.src = "https://i.scdn.co/image/ab6765630000ba8a1ad6aac836af3e9c5c5d549b" }}
                   />
                   <div className="min-w-0 flex-1">
-                    <div className="text-xs font-bold text-stone-900">Muhammed Aydogan</div>
+                    <div className="text-xs font-bold text-stone-900">Mohammed Aydogan</div>
                   </div>
                 </div>
 

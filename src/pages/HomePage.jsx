@@ -1,7 +1,6 @@
 import { useState, useMemo, useEffect } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import Hero from '../components/Hero'
-import AboutSection from '../components/AboutSection'
 import AskQuestionSection from '../components/AskQuestionSection'
 import EpisodeCard from '../components/EpisodeCard'
 import TopicCard from '../components/TopicCard'
@@ -379,9 +378,6 @@ function HomePage() {
 
       {/* Community / Ask a Question Section */}
       <AskQuestionSection />
-
-      {/* About Hosts Section */}
-      <AboutSection />
 
       {/* CTA — minimal */}
       <section className="py-14 bg-coffee-900 text-white text-center">

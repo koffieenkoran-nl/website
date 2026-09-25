@@ -57,7 +57,7 @@ export default function AskQuestionSection() {
           Zit je ergens mee?
         </h2>
         <p className="text-coffee-300 text-base sm:text-lg leading-relaxed mb-10">
-          Stuur je vraag of dilemma in. Muhammed en Ahmet bespreken het in een volgende aflevering.
+          Stuur je vraag of dilemma in. Mohammed en Ahmet bespreken het in een volgende aflevering.
         </p>
 
         {submitted ? (
