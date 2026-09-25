@@ -1,7 +1,7 @@
 # koffieenkoran.nl
 
-De site van de podcast. Wat op `main` staat, staat binnen een minuut live op koffieenkoran.nl:
-Vercel haalt elke push op en zet hem online.
+De site van de podcast **Koffie & Koran**. Wat op `main` staat, staat binnen een minuut live op
+koffieenkoran.nl: Vercel haalt elke push op, bouwt de site en zet hem online.
 
 ## Inloggen
 
@@ -16,6 +16,33 @@ Op een nieuwe laptop: log in op github.com met dat account, clone deze repo en p
 GitHub Desktop of `gh auth login`. Vercel hoeft niet op de laptop; dat doe je in de browser.
 Staat er tweestapsverificatie op, zorg dan dat jullie allebei bij de code kunnen.
 
+## Lokaal werken
+
+Vite + React + Tailwind. Nodig: Node 20 of nieuwer.
+
+```bash
+npm install      # eenmalig
+npm run dev      # de site op http://localhost:5173, ververst bij elke wijziging
+npm run build    # precies wat Vercel doet; faalt dit, dan faalt de deploy ook
+```
+
+## Waar wat staat
+
+| Wat je wilt veranderen | Bestand |
+|---|---|
+| Een aflevering: titel, tekst, YouTube- en Spotify-link, thema | `src/data/episodes.js` |
+| De routes op de Begin hier-pagina | `src/data/beginHier.js` |
+| Teksten op de homepage, over ons, het vragenformulier | `src/components/` |
+| Titel en beschrijving voor Google en social media | `index.html` |
+| Wat Google vindt | `public/sitemap.xml` en `public/video-sitemap.xml` |
+
+**Een nieuwe aflevering is drie plekken, niet één.** De sitemaps worden niet vanzelf gemaakt:
+zet de aflevering in `episodes.js` én voeg de URL toe aan `public/sitemap.xml` en
+`public/video-sitemap.xml`. De nieuwste aflevering bovenaan de homepage komt wel vanzelf uit de
+Spotify-feed.
+
+Het vragenformulier stuurt via FormSubmit naar koffieenkoran@gmail.com.
+
 ## Samen werken
 
 1. **Eerst `git pull`**, elke keer voordat je begint. Dan bouw je verder op wat de ander deed.
@@ -28,20 +55,11 @@ Staat er tweestapsverificatie op, zorg dan dat jullie allebei bij de code kunnen
 Toch iets stuk op de live site? In Vercel onder Deployments zet Instant Rollback de vorige
 versie terug. Herstel het daarna gewoon in git.
 
-## Wat er nu in staat
+## Hosting
 
-De gebouwde site (React + Vite), geen broncode. Aanpassen kan hier dus nog niet. Een nieuwe
-build verwerken wel: vervang alles behalve `vercel.json`, `.gitignore` en dit bestand door de
-nieuwe `dist/`, commit en push.
+Alleen Vercel. `vercel.json` zegt hem dat dit een Vite-project is (bouwen met `npm run build`,
+serveren uit `dist/`) en stuurt elke URL naar de app, zodat `/afleveringen/...` direct werkt.
+Het domein staat bij de hoster op Vercel gericht. GitHub Pages staat uit;
+`public/_redirects` en `public/.htaccess` doen alleen iets bij Netlify of Apache.
 
-## Als de broncode erin komt
-
-De afleveringen (titels, teksten, YouTube-links) staan in de broncode. Zonder die code kan
-alleen wie hem heeft iets aan de site veranderen. Zo zet je hem erin, in één commit:
-
-1. Vervang de gebouwde bestanden door het hele project, zonder `node_modules`, `dist` en `.env`.
-2. Zet `"framework": "vite"` in `vercel.json`. Dan bouwt Vercel zelf en serveert hij `dist/`.
-   Zonder die regel serveert hij de losse bronbestanden en is de site stuk.
-3. Zet `node_modules`, `dist` en `.env*` in `.gitignore`.
-4. Eerst naar een branch en de voorbeeldlink bekijken, dan naar `main`. Check daarna dat
-   `/sitemap.xml` en `/video-sitemap.xml` nog bestaan; die laatste is al eens zoekgeraakt.
+`v2.md` is de SEO-brief voor de volgende ronde aan de site.
