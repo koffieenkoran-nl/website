@@ -26,14 +26,9 @@ function Footer() {
               Een wekelijkse podcast door Muhammed en Ahmet.
             </p>
             <div className="flex items-center gap-3">
-              <a
-                href="https://nl.linkedin.com/in/muhammedaydogan"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs text-coffee-400 hover:text-white transition-colors"
-              >
-                Muhammed ↗
-              </a>
+              <span className="text-xs text-coffee-400">
+                Muhammed
+              </span>
               <span className="text-coffee-700">·</span>
               <a
                 href="https://ahmetkaya.nl/"

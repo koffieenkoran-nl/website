@@ -13,32 +13,19 @@ function AboutSection() {
 
           {/* Muhammed */}
           <div className="flex flex-col items-center text-center">
-            <a
-              href="https://nl.linkedin.com/in/muhammedaydogan"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group mb-4 block"
-            >
+            <div className="mb-4">
               <img
                 src="/muhammed-aydogan.jpg"
                 alt="Muhammed Aydogan"
-                className="w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover ring-2 ring-stone-200 group-hover:ring-coffee-400 transition-all shadow-sm"
+                className="w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover ring-2 ring-stone-200 shadow-sm"
                 onError={(e) => {
                   e.target.src = 'https://i.scdn.co/image/ab6765630000ba8a1ad6aac836af3e9c5c5d549b'
                 }}
               />
-            </a>
+            </div>
             <h3 className="font-display font-bold text-sm sm:text-base text-stone-900 mb-1">
               Muhammed
             </h3>
-            <a
-              href="https://nl.linkedin.com/in/muhammedaydogan"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-stone-400 hover:text-coffee-600 transition-colors"
-            >
-              LinkedIn ↗
-            </a>
           </div>
 
           {/* Ahmet */}

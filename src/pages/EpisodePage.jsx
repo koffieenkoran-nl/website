@@ -61,7 +61,7 @@ function EpisodePage() {
         url: 'https://koffieenkoran.nl'
       },
       author: [
-        { '@type': 'Person', name: 'Muhammed Aydogan', url: 'https://nl.linkedin.com/in/muhammedaydogan' },
+        { '@type': 'Person', name: 'Muhammed Aydogan' },
         { '@type': 'Person', name: 'Ahmet Kaya', url: 'https://ahmetkaya.nl/' }
       ]
     },
@@ -360,23 +360,17 @@ function EpisodePage() {
               </h3>
               <div className="space-y-3">
                 {/* Muhammed */}
-                <a
-                  href="https://nl.linkedin.com/in/muhammedaydogan"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center gap-3 p-1.5 rounded-xl hover:bg-stone-50 transition-colors"
-                >
+                <div className="flex items-center gap-3 p-1.5">
                   <img
                     src="/muhammed-aydogan.jpg"
                     alt="Muhammed Aydogan"
-                    className="w-10 h-10 rounded-full object-cover ring-2 ring-coffee-200 group-hover:ring-coffee-500 transition-all"
+                    className="w-10 h-10 rounded-full object-cover ring-2 ring-coffee-200"
                     onError={(e) => { e.target.src = "https://i.scdn.co/image/ab6765630000ba8a1ad6aac836af3e9c5c5d549b" }}
                   />
                   <div className="min-w-0 flex-1">
-                    <div className="text-xs font-bold text-stone-900 group-hover:text-coffee-700">Muhammed Aydogan</div>
-                    <div className="text-[10px] text-[#0077B5] font-semibold flex items-center gap-1">LinkedIn profiel ↗</div>
+                    <div className="text-xs font-bold text-stone-900">Muhammed Aydogan</div>
                   </div>
-                </a>
+                </div>
 
                 {/* Ahmet */}
                 <a
